@@ -1,8 +1,8 @@
-OPM Documentation
-=================
+Zetaris Documentation
+=====================
 
 This repository is the source of the [the official
-documentation](http://opm.readthedocs.io/).
+documentation](http://zetaris.readthedocs.io/).
 
 
 Compile the documentation
