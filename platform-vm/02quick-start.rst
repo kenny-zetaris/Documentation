@@ -16,7 +16,7 @@ The platform access page is the central dashboard for the platform. You can acce
 **Advanced User Options** 
 ==========================
 
-User can always login to the box using ssh and their favourite utility such as puTTY, Filezilla ,Cyberduck or other similar software. All the Zetaris products are registered as system services and  the image is built upon Centos 7.4. 
+User can always login to the box using ``ssh`` and their favourite utility such as ``puTTY, Filezilla ,Cyberduck`` or other similar software. All the Zetaris products are registered as system services and  the image is built upon Centos 7.4. 
 
 The installed services are ::
 

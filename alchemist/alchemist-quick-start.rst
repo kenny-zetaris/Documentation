@@ -1,14 +1,14 @@
-#######################
-Alchemist Quick Start
-#######################
+########################################
+Quick Start Guide For Zetaris Alchemist
+########################################
 
-Administrator user stories
+Administrator User Stories
 ===========================
 
-Alchemist Admin will be able to create industry access group
---------------------------------------------------------------
+Alchemist Admin Will Be Able To Create Industry Access Group
+----------------------------------------------------------------
 
-a)  Login as Admin user 
+a)  Login as Admin User 
 ++++++++++++++++++++++++
 
 Login as Admin user, select Admin -> Roles -> Create option from the menu 
@@ -19,7 +19,7 @@ Login as Admin user, select Admin -> Roles -> Create option from the menu
 
 
 
-b) Access group name
+b) Access Group Name
 ++++++++++++++++++++++
 
  Enter the role name (access group name) and select permissions from the list available. 
@@ -39,10 +39,10 @@ Role/Group will be saved and listed in screen below
    :align:   center
 
 
-Alchemist Admin will be able to create a worksheet or dashboard and assign to industries, merchants or users
+Alchemist Admin Will Be Able To Create A Worksheet Or Dashboard And Assign To Industries, Merchants Or Users
 ------------------------------------------------------------------------------------------------------------------
 
-a)  Create Data source 
+a)  Create Data Source 
 ++++++++++++++++++++++++
 
 To create data source, select menu -> Data Sources -> Create option 
@@ -138,10 +138,30 @@ Click on apply to reflect the changes
 .. figure::  img/17.png
    :align:   center 
 
+.. figure::  img/18.png 
+   :align:   left              
 
+This will allow you to select the color of your choice for graphs.
 
+.. figure::  img/19.png 
+   :align:   left              
 
+This will open graph in view mode.                                  
 
+.. figure::  img/20.png 
+   :align:   left              
+
+On click of this button will reload the graph with latest data from datasource.
+
+.. figure::  img/21.png 
+   :align:   left              
+
+This will allow you to share the worksheet with other users/groups
+
+.. figure::  img/22.png 
+   :align:   left              
+
+This will save the worksheet
 
 d)  Creating Report
 ++++++++++++++++++++
@@ -166,10 +186,10 @@ Created Report can be set as home page (dashboard) from the list report screen a
 .. figure::  img/26.png
    :align:   center 
 
-Merchant request access
+Merchant Request Access
 ========================
 
-A Merchant user would request Alchemist administrator for a dashboard / Worksheet
+A Merchant User Would Request Alchemist Administrator For A Dashboard/Worksheet
 ===================================================================================
 
 Alchemist Admin will check if merchant exist

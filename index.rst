@@ -11,10 +11,9 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   platform-vm/index.rst
+   PLATFORM-VM/index.rst
+   alchemist/index.rst
    lightning/index.rst
    fusion/index.rst
-   agent/index.rst
-   alchemist/index.rst
 
 

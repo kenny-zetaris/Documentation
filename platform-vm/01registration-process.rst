@@ -5,7 +5,7 @@
 **Prerequisites**
 =================
 
-Which Virtualisation tools to use
+Which Virtualisation Tools To Use
 -------------------------------------
 
 The Zetaris Platform EV Virtual machine is built on Centos 7.4 and is compatible with VMWare Workstation, VMWare player and Oracle VM Virtualbox virtualisation tools. 
@@ -14,16 +14,17 @@ Others may work but are not tested.
 Host System Configuration
 ------------------------------
 
-Minimum – Quad Core CPU, 16GB RAM, 10 GB Hard Drive Space
-Recommended - Quad Core CPU, 32GB RAM, 10 GB Hard Drive Space
+* Minimum – Quad Core CPU, 16GB RAM, 10 GB Hard Drive Space
+* Recommended - Quad Core CPU, 32GB RAM, 10 GB Hard Drive Space
 
 Recommended VM Configuration
 ---------------------------------
 
 When defining the system setting for the virtual machine, the important parameters to keep in mind are as follows:
-CPU:  2 CPU’s with one core each
 
-RAM:  Minimum 8 GB (recommended 16 GB)
+* CPU:  2 CPU’s with one core each
+
+* RAM:  Minimum 8 GB (recommended 16 GB)
 
 NETWORK CONFIGURATION
 ++++++++++++++++++++++++++
@@ -38,12 +39,12 @@ The Zetaris Platform EV virtual machine has a time limited versions of Zetaris s
 The differences as compared to a fully featured version are listed below;
 
 Zetaris FusionDB
----------------------
+-----------------
 
 Maximum database size of 500 MB, if this limit is exceed a warning is issued and you can elect to cancel an operation or drop tables to regain functionality of the database
 
 Zetaris Lightning and Alchemist
------------------------------------
+--------------------------------
 
 Maximum of two data sources to ensure that the VM can function effectively and reliably with the limited VM resources specified.
 
@@ -51,15 +52,18 @@ Maximum of two data sources to ensure that the VM can function effectively and r
 =====================================
 
 Once the virtual machine has been extracted and loaded into a VM host such as VmWare Player or Oracle VirtualBox, a series of steps need to be taken to register your version of the product and eventually activated, through the below process.
-Once your VM starts you will be presented with the following Console Welcome Screen which lists the activation activities in the order that they need to be executed, Registration, Activation and finally Access::
 
-    Welcome to the Zetaris Platform – Evaluation Version
+Once your VM starts you will be presented with the following Console Welcome Screen which lists the activation activities in the order that they need to be executed, Registration, Activation and finally Access
+
+.. note::
+    The IP address listed in the URL’s will be different for each installation
+
+Welcome to the Zetaris Platform – Evaluation Version
+
     - Register this product : http://172.31.12.159/agent/register
     - Activate this product : http://172.31.12.159/agent/activate
     - Access Zetaris Services : http://172.31.12.159/agent/status
 
-.. note::
-    The IP address listed in the URL’s will be different for each installation
 
 Default Linux User
 -----------------------
@@ -100,7 +104,7 @@ You will receive a registration response email from Zetaris which will contain y
 Initialization and Access
 --------------------------
 
-Successful product activation will take you to the Zetaris Platform access page which will initialize itself on first use. Once initialization is completed the page would display the services, their access URL’s and the status of the services. 
+Successful product activation will take you to the ``Zetaris Platform access`` page which will initialize itself on first use. Once initialization is completed the page would display the services, their access URL’s and the status of the services. 
 
 This page can be accessed at any time , so it’s recommended it be bookmarked.
 

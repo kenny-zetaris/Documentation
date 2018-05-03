@@ -1,4 +1,4 @@
-platform-vm
+PLATFORM-VM
 =============
 
 .. toctree::
