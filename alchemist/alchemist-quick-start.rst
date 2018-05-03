@@ -90,13 +90,15 @@ c)  Create Worksheet
 *   Then select data layer which you want to use to create worksheet. 
 *   Every visitation has different parameters e.g. Bar and Line needs data for x and y axis to select and Map need longitude and latitude. Drag and drop the fields from layer to appropriate parameters which you want to plot on graph. 
 
-For example: Following visualization is for map, to plot this drag and drop longitude and latitude fields from layers to longitude and latitude parameters on map, select the name value which you want to show o data points on map.  
+**For example:**
+Following visualization is for map, to plot this drag and drop longitude and latitude fields from layers to longitude and latitude parameters on map, select the name value which you want to show o data points on map.  
 
 .. figure::  img/9.png
    :align:   center
 
 
-Example 2: The worksheet below shows the creating worksheet with bar chart. 
+**Example 2:** 
+The worksheet below shows the creating worksheet with bar chart. 
 
 .. figure::  img/10.png
    :align:   center

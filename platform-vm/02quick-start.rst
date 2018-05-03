@@ -88,7 +88,7 @@ Once Alchemist Server is running, connect to  ``http://<local IP Address>:8080/z
      Password: zetaris!23
 
 * The data folder is located under : /srv/zetaris/<product>
-* The logs are located under : /srv/Zetaris/logs/<product>
+* The logs are located under : /srv/zetaris/logs/<product>
 * The runtime service logs can be viewed using : journalctl -u <service name>
 
 For more detailed information these services please refer the usage guides for each.

@@ -6,7 +6,7 @@ Zetaris FusionDB is a distributed database capable of both OLAP and OLTP workloa
 
 FusionDB has been engineered to work with Zetaris Lightning data virtualisation technology as a data source but also provides connectivity to for any client using an ODBC/JDBC connector.
 
-*	Architecture 
+*	Architecture
 *	Starting FusionDB
 *	Monitoring FusionDB
 *	Shutdown of  FusionDB
@@ -14,10 +14,12 @@ FusionDB has been engineered to work with Zetaris Lightning data virtualisation 
 *	Creating Partition Tables  
 *	creating  distributed tables
 *	creating replicated  tables
-*	 SQL Execution
+*	SQL Execution
+
+
 
 Architecture 
-=============
+==============
 
 The Fusion DB consists of four main components:
 
@@ -46,9 +48,9 @@ Starting FusionDB
 ==================
 
 *	Start the cluster management tool, pgxc_ctl .
-*	pgxc_ctl -c /srv/zetaris/zmpp/config/pgxc_ctl.conf
+*	``pgxc_ctl -c /srv/zetaris/zmpp/config/pgxc_ctl.conf``
 *	Execute start all command to start FusionDB.
-*	Syntax: PGXC> start all
+*	Syntax: PGXC> ``start all``
 
 Sample output of the monitoring all command: ::
    
@@ -129,9 +131,9 @@ ODBC/JDBC connectivity allows any compatible to connect, below is a DB Visualise
 DbVisuliser
 ------------
 
-o	Download DbVisualizer through the web site, https://www.dbvis.com/download/
+*	Download DbVisualizer through the web site, https://www.dbvis.com/download/
 
-o	Choose JDBC driver as Postgresql , and set Database as postgres when creating new connection in the DbVisualizer :
+*	Choose JDBC driver as Postgresql , and set Database as postgres when creating new connection in the DbVisualizer :
 
 .. figure::  1.png
    :align:   center	
@@ -142,12 +144,12 @@ Creating partition tables
 There are two kinds of partition tables which can be created in FusionDB;
 
 A distributed table 
-^^^^^^^^^^^^^^^^^^^^
+--------------------
 
 where the records of the table are stored across the available nodes in a cluster. This can be any number starting with one.
 
 A replicated table
-^^^^^^^^^^^^^^^^^^^^
+-------------------
 
 where copies of the table are deployed to each data node.This can be any number starting with one.
 
@@ -161,7 +163,7 @@ You can create a distributed table using the ``DISTRIBUTE BY HASH`` clause by sp
 Creating replicated tables
 ---------------------------
 
-You can create a replicated table using the ``DISTRIBUTE BY REPLICATION`` clause.`::
+You can create a replicated table using the ``DISTRIBUTE BY REPLICATION`` clause.::
 
      CREATE TABLE sample_replicate_table (xinteger)DISTRIBUTE BY REPLICATION;
 

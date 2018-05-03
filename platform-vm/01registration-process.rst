@@ -36,6 +36,7 @@ NETWORK CONFIGURATION
 =================
 
 The Zetaris Platform EV virtual machine has a time limited versions of Zetaris software which has also been scaled back to predetermined functionality level to ensure an acceptable whilst maintaining a compact file size for product download.
+
 The differences as compared to a fully featured version are listed below;
 
 Zetaris FusionDB
@@ -104,7 +105,7 @@ You will receive a registration response email from Zetaris which will contain y
 Initialization and Access
 --------------------------
 
-Successful product activation will take you to the ``Zetaris Platform access`` page which will initialize itself on first use. Once initialization is completed the page would display the services, their access URL’s and the status of the services. 
+Successful product activation will take you to the ``Zetaris Platform`` access page which will initialize itself on first use. Once initialization is completed the page would display the services, their access URL’s and the status of the services. 
 
 This page can be accessed at any time , so it’s recommended it be bookmarked.
 
