@@ -1,4 +1,4 @@
-PLATFORM-VM
+Platform-VM
 =============
 
 .. toctree::
@@ -6,3 +6,4 @@ PLATFORM-VM
    :glob:
 
    *
+

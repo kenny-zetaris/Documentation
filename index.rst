@@ -1,9 +1,6 @@
-Welcome to zetaris's documentation!
+Zetaris Documentation
 ===================================
 
-.. warning::
-
-  **This documentation is a work in progress.**
 
 Contents:
 ---------
@@ -11,7 +8,7 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   PLATFORM-VM/index.rst
+   Platform-VM/index.rst
    alchemist/index.rst
    lightning/index.rst
    fusion/index.rst
