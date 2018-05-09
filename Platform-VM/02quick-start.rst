@@ -1,5 +1,5 @@
 ##########################################
-Quick Start Guide for Zetaris Platform
+**Quick Start Guide for Zetaris Platform**
 ##########################################
 
 This section describes how to manage the Zetaris Platform servers and how to connect to them through a Web UI. All servers are registered as a service so that all relevant daemons are automatically kicked off at platform boot-up
@@ -59,6 +59,11 @@ Once Lighting GUI Server is running, connect to ``http://<local IP Address>:9001
      Stopping the Service - sudo service zetaris-lightning-notebook stop
 
 Once Lighting GUI Server is running, a user can connect to ``http://<local IP Address>:9080``
+
+Click here to download driver for Lightning server
+
+:download:`Lightning-drive.zip <doc/Lightning-driver.zip>`
+
 
 **Alchemist Reporting Server**
 --------------------------------

@@ -6,15 +6,15 @@ Zetaris FusionDB is a distributed database capable of both OLAP and OLTP workloa
 
 FusionDB has been engineered to work with Zetaris Lightning data virtualisation technology as a data source but also provides connectivity to for any client using an ODBC/JDBC connector.
 
-*	Architecture
-*	Starting FusionDB
-*	Monitoring FusionDB
-*	Shutdown of  FusionDB
-*	Connecting to Fusion DB
-*	Creating Partition Tables  
-*	creating  distributed tables
-*	creating replicated  tables
-*	SQL Execution
+*   Architecture
+*   Starting FusionDB
+*   Monitoring FusionDB
+*   Shutdown of  FusionDB
+*   Connecting to Fusion DB
+*   Creating Partition Tables  
+*   creating  distributed tables
+*   creating replicated  tables
+*   SQL Execution
 
 
 
@@ -47,10 +47,10 @@ Start , Stop and Monitor all nodes in cluster.
 Starting FusionDB 
 ==================
 
-*	Start the cluster management tool, pgxc_ctl .
-*	``pgxc_ctl -c /srv/zetaris/zmpp/config/pgxc_ctl.conf``
-*	Execute start all command to start FusionDB.
-*	Syntax: PGXC> ``start all``
+*   Start the cluster management tool, pgxc_ctl .
+*   ``pgxc_ctl -c /srv/zetaris/zmpp/config/pgxc_ctl.conf``
+*   Execute start all command to start FusionDB.
+*   Syntax: PGXC> ``start all``
 
 Sample output of the monitoring all command: ::
    
@@ -73,10 +73,10 @@ Sample output of the monitoring all command: ::
 Monitoring Fusion DB
 ======================
 
-*	Start the cluster management tool, pgxc_ctl .
-*	``pgxc_ctl -c /srv/zetaris/zmpp/config/pgxc_ctl.conf``
-*	Execute  monitor  all command to ``monitor  all`` nodes in the FusionDB cluster.
-*	Syntax: PGXC> ``monitor all``
+*   Start the cluster management tool, pgxc_ctl .
+*   ``pgxc_ctl -c /srv/zetaris/zmpp/config/pgxc_ctl.conf``
+*   Execute  monitor  all command to ``monitor  all`` nodes in the FusionDB cluster.
+*   Syntax: PGXC> ``monitor all``
 
 Sample output of the monitoring all command: ::
 
@@ -89,10 +89,10 @@ Sample output of the monitoring all command: ::
 Shutdown of FusionDB
 =====================
 
-*	Start the cluster management tool, pgxc_ctl .
-*	``pgxc_ctl -c /srv/zetaris/zmpp/config/pgxc_ctl.conf``
-*	Execute ``stop  all`` command to shutdown Fusion DB cluster.   
-*	Syntax: PGXC> ``stop all``
+*   Start the cluster management tool, pgxc_ctl .
+*   ``pgxc_ctl -c /srv/zetaris/zmpp/config/pgxc_ctl.conf``
+*   Execute ``stop  all`` command to shutdown Fusion DB cluster.   
+*   Syntax: PGXC> ``stop all``
 
 Sample output of stop all command: ::
 
@@ -115,7 +115,7 @@ There are typically two ways to connecting Fusion DB cluster :
 
 Psql from the linuc command line
   
-*	psql -p 20004 -h localhost postgres
+*   psql -p 20004 -h localhost postgres
 
 *   Sample output of executing above psql displayed below: ::
 
@@ -131,17 +131,22 @@ ODBC/JDBC connectivity allows any compatible to connect, below is a DB Visualise
 DbVisuliser
 ------------
 
-*	Download DbVisualizer through the web site, https://www.dbvis.com/download/
+*   Download DbVisualizer through the web site, https://www.dbvis.com/download/
 
-*	Choose JDBC driver as Postgresql , and set Database as postgres when creating new connection in the DbVisualizer :
+*   Choose JDBC driver as Postgresql , and set Database as postgres when creating new connection in the DbVisualizer :
 
-.. figure::  f1.png
-   :align:   center	
+.. figure::  img/f1.png
+   :align:   center 
 
 The connection string for the database is - ``jdbc:postgresql://172.16.15.141:20004/postgres`` and the credential::
   
    username  'zetaris' 
    password 'zetaris!23
+
+Click here to download driver for fusion DB
+
+:download:`Fusion-drive.zip <doc/Fusion-driver.zip>`
+
 
 Creating partition tables
 ==========================

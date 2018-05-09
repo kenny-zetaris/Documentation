@@ -1,5 +1,5 @@
 ##############################
-Zetaris Platform EV Guide
+**Zetaris Platform EV Guide**
 ##############################
 
 **Prerequisites**
@@ -61,7 +61,7 @@ Once your VM starts you will be presented with the following Console Welcome Scr
 
 Welcome to the Zetaris Platform – Evaluation Version
 
-    - Register this product : http://172.31.12.159/agent/activate
+    - Register this product : http://172.31.12.159/agent/activation
     - Activate this product : http://172.31.12.159/agent/authorize
     - Access Zetaris Services : http://172.31.12.159/agent/status
 
