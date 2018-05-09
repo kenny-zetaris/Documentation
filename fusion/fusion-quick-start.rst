@@ -135,8 +135,13 @@ DbVisuliser
 
 *	Choose JDBC driver as Postgresql , and set Database as postgres when creating new connection in the DbVisualizer :
 
-.. figure::  1.png
+.. figure::  f1.png
    :align:   center	
+
+The connection string for the database is - ``jdbc:postgresql://172.16.15.141:20004/postgres`` and the credential::
+  
+   username  'zetaris' 
+   password 'zetaris!23
 
 Creating partition tables
 ==========================

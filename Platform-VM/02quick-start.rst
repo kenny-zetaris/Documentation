@@ -1,5 +1,5 @@
 ##########################################
-**Quick Start Guide for Zetaris Platform**
+Quick Start Guide for Zetaris Platform
 ##########################################
 
 This section describes how to manage the Zetaris Platform servers and how to connect to them through a Web UI. All servers are registered as a service so that all relevant daemons are automatically kicked off at platform boot-up
