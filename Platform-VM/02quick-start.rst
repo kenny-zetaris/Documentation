@@ -62,7 +62,7 @@ Once Lighting GUI Server is running, a user can connect to ``http://<local IP Ad
 
 Click here to download driver for Lightning server
 
-:download:`Lightning-drive.zip <doc/Lightning-driver.zip>`
+:download:`Lightning-driver.zip <doc/Lightning-driver.zip>`
 
 
 **Alchemist Reporting Server**

@@ -113,7 +113,7 @@ Connecting to FusionDB
 
 There are typically two ways to connecting Fusion DB cluster :
 
-Psql from the linuc command line
+Psql from the linux command line
   
 *   psql -p 20004 -h localhost postgres
 
@@ -145,7 +145,7 @@ The connection string for the database is - ``jdbc:postgresql://172.16.15.141:20
 
 Click here to download driver for fusion DB
 
-:download:`Fusion-drive.zip <doc/Fusion-driver.zip>`
+:download:`Fusion-driver.zip <doc/Fusion-driver.zip>`
 
 
 Creating partition tables
