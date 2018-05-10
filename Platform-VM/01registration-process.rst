@@ -49,20 +49,17 @@ Zetaris Lightning and Alchemist
 
 Maximum of two data sources to ensure that the VM can function effectively and reliably with the limited VM resources specified.
 
-**Start-Up And Registration Process**
+**Start-Up And Activation Process**
 =====================================
 
 Once the virtual machine has been extracted and loaded into a VM host such as VmWare Player or Oracle VirtualBox, a series of steps need to be taken to register your version of the product and eventually activated, through the below process.
 
-Once your VM starts you will be presented with the following Console Welcome Screen which lists the activation activities in the order that they need to be executed, Registration, Activation and finally Access
-
-.. note::
-    The IP address listed in the URL’s will be different for each installation
+Once your VM starts you will be presented with the following Console Welcome Screen which lists the authorize activities in the order that they need to be executed, Activation, Authorize and finally Access
 
 Welcome to the Zetaris Platform – Evaluation Version
 
-    - Register this product : http://172.31.12.159/agent/activation
-    - Activate this product : http://172.31.12.159/agent/authorize
+    - Activation this product : http://172.31.12.159/agent/activation
+    - Authorize this product : http://172.31.12.159/agent/authorize
     - Access Zetaris Services : http://172.31.12.159/agent/status
 
 
@@ -76,28 +73,28 @@ Once the VM has started, the default linux login credentials are as follows::
 
 **This step is not required to complete the registration process but may be useful later for linux admin purposes.**
 
-Registration
+Activation
 -------------
 
-Registration is required for Zetaris to assign an activation code which unlocks the software and starts the evaluation process.
+Activation is required for Zetaris to assign an authorize code which unlocks the software and starts the evaluation process.
 
  * Follow the ``Register this product`` link to display the registration page shown below.
  * Fill in your ``name`` and ``email address`` and click the submit button.
 
-Once the registration is completed an activation code will be emailed to you within 24 hours
+Once the activation is completed an authorize code will be emailed to you within 24 hours
 
 .. figure::  img/registration.png
    :align:   center
 
 
-Activation
+Authorize
 --------------
 
-You will receive a registration response email from Zetaris which will contain your activation code as a text string in the body of the email.
+You will receive a activation response email from Zetaris which will contain your authorize code as a text string in the body of the email.
 
- * Copy the activation code from the response email
- * Follow the ``Activate this product`` link to display the activation page shown below.
- * Paste the activation code from the response email into the ``Activate Now`` field and click submit.
+ * Copy the authorize code from the response email
+ * Follow the ``Authorize this product`` link to display the authorize page shown below.
+ * Paste the authorize code from the response email into the ``Authorize Now`` field and click submit.
 
 .. figure::  img/activation.png
    :align:   center
@@ -105,7 +102,7 @@ You will receive a registration response email from Zetaris which will contain y
 Initialization and Access
 --------------------------
 
-Successful product activation will take you to the ``Zetaris Platform`` access page which will initialize itself on first use. Once initialization is completed the page would display the services, their access URL’s and the status of the services. 
+Successful product authorize will take you to the ``Zetaris Platform`` access page which will initialize itself on first use. Once initialization is completed the page would display the services, their access URL’s and the status of the services. 
 
 This page can be accessed at any time , so it’s recommended it be bookmarked.
 

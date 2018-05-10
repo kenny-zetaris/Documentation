@@ -140,8 +140,8 @@ DbVisuliser
 
 The connection string for the database is - ``jdbc:postgresql://172.16.15.141:20004/postgres`` and the credential::
   
-   username  'zetaris' 
-   password 'zetaris!23
+   username:  'zetaris' 
+   password: 'zetaris!23
 
 Click here to download driver for fusion DB
 
