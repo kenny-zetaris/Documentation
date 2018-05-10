@@ -49,10 +49,10 @@ Zetaris Lightning and Alchemist
 
 Maximum of two data sources to ensure that the VM can function effectively and reliably with the limited VM resources specified.
 
-**Start-Up And Activate Process**
+**Start-Up And Activaton Process**
 =====================================
 
-Once the virtual machine has been extracted and loaded into a VM host such as VmWare Player or Oracle VirtualBox, a series of steps need to be taken to register your version of the product and eventually activated, through the below process.
+Once the virtual machine has been extracted and loaded into a VM host such as VmWare Player or Oracle VirtualBox, a series of steps need to be taken to register your version of the product and eventually activation, through the below process.
 
 Once your VM starts you will be presented with the following Console Welcome Screen which lists the authorize activities in the order that they need to be executed, Activation, Authorize and finally Access
 
@@ -76,12 +76,12 @@ Once the VM has started, the default linux login credentials are as follows::
 Activate
 -------------
 
-Activate is required for Zetaris to assign an authorize code which unlocks the software and starts the evaluation process.
+Activation is required for Zetaris to assign an authorize code which unlocks the software and starts the evaluation process.
 
  * Follow the ``Register this product`` link to display the registration page shown below.
  * Fill in your ``name`` and ``email address`` and click the submit button.
 
-Once the activate is completed an authorize code will be emailed to you within 24 hours
+Once the activation is completed an authorize code will be emailed to you within 24 hours
 
 .. figure::  img/registration.png
    :align:   center
@@ -90,7 +90,7 @@ Once the activate is completed an authorize code will be emailed to you within 2
 Authorize
 --------------
 
-You will receive a activate response email from Zetaris which will contain your authorize code as a text string in the body of the email.
+You will receive an activation response email from Zetaris which will contain your authorize code as a text string in the body of the email.
 
  * Copy the authorize code from the response email
  * Follow the ``Authorize this product`` link to display the authorize page shown below.
