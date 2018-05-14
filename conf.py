@@ -19,6 +19,8 @@
 import os
 import sys
 
+#sys.path.append(os.path.abspath('sphinx-docxbuilder'))
+
 # -- Project information -----------------------------------------------------
 
 project = 'zetaris'
