@@ -7,32 +7,47 @@ Error Codes
 
 +-------+-------------------------------------------------------------+
 | AG001 | Failed to contact Server .                                  |
-+-------+-------------------------------------------------------------+ 
++-------+-------------------------------------------------------------+
 | AG002 | Failed to create Account .                                  |
 +-------+-------------------------------------------------------------+
 | AG003 | Failed to create User .                                     |
-+-------+-------------------------------------------------------------+ 
++-------+-------------------------------------------------------------+
 | AG004 | Failed to create License/Entitlement .                      |
 +-------+-------------------------------------------------------------+
 | AG005 | Failed to validate License .                                |
-+-------+-------------------------------------------------------------+ 
-| AG006 | Failed to initialise the cluster .                          | 
++-------+-------------------------------------------------------------+
+| AG006 | Failed to initialise the cluster .                          |
 +-------+-------------------------------------------------------------+
 | AG007 | Service not available                                       |
-+-------+-------------------------------------------------------------+ 
-| AG008 | Registration  Page Error                                    | 
 +-------+-------------------------------------------------------------+
-| AG009 | Activation Page Error                                       |   
-+-------+-------------------------------------------------------------+ 
+| AG008 | Registration  Page Error                                    |
++-------+-------------------------------------------------------------+
+| AG009 | Failed to render Page. Internal Error                       |
++-------+-------------------------------------------------------------+
 | AG010 | Activation Error                                            |
 +-------+-------------------------------------------------------------+
-| AG011 | Activation Error - Failed to run the activation agent       | 
-+-------+-------------------------------------------------------------+ 
-| AG012 | Activation Error - Agent returned false for activation key  |
+| AG011 | Failed to run the activation agent                          |
++-------+-------------------------------------------------------------+
+| AG012 | Invalid Activation key                                      |
++-------+-------------------------------------------------------------+
+| AG013 | License not installed. Not activated                        |
++-------+-------------------------------------------------------------+
+| AG014 | License key has been deactivated                            |
++-------+-------------------------------------------------------------+
+| AG015 | License doesn’t cover this product                          |
++-------+-------------------------------------------------------------+
+| AG016 | License has expired                                         |
++-------+-------------------------------------------------------------+
+| AG017 | Failed to contact the License server.                       |
+|       | Check network connection                                    |
++-------+-------------------------------------------------------------+
+| AG018 | License ID file missing                                     |
++-------+-------------------------------------------------------------+
+| AG019 | Unknown internal error when validating license.             |
 +-------+-------------------------------------------------------------+
 
-* If you find the services in waiting mode for ever then 
-   
+* If you find the services in waiting mode for ever then
+
    - Login into the box and the copy across the log folder - /srv/zetaris/logs and email us ``@ support.zetaris.com``
 
    - If you find the services fail to start up send us the logs.
