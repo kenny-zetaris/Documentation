@@ -21,7 +21,7 @@ import sys
 
 # -- Project information -----------------------------------------------------
 
-project = 'zetaris'
+project = 'Zetaris Tutorial'
 copyright = '2018, Zetaris'
 author = 'Zetaris'
 
@@ -40,8 +40,9 @@ release = '0'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['rst2pdf.pdfbuilder']
-pdf_documents = [('index', u'rst2pdf', u'Platform-VM', u'Zetaris Dev'),]
+#extensions = ['rst2pdf.pdfbuilder']
+extensions = []
+pdf_documents = [('index', u'rst2pdf', u'Lightning Manual', u'Zetaris Dev'),]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -76,10 +77,11 @@ pygments_style = 'sphinx'
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = "sphinx_rtd_theme"
+#html_theme = "sphinx_rtd_theme"
+html_theme = "haiku"
 #html_theme = "default"
 html_theme_options = {
-    #"logo_only": "true",
+    #"Logo1_only": "true",
     #"relbarbgcolor": "black"
 }
 
@@ -150,7 +152,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'zetaris', 'zetaris Documentation',
+    (master_doc, 'zetaris', 'zetaris',
      [author], 1)
 ]
 
