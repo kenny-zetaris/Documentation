@@ -14,7 +14,7 @@ If you find it difficult to set the database up and running. You can get the res
 Zetaris Platform VM
 ====================
 
-Follow the instructions under `Download and Go start guide <../Platform-VM/index.rst>`_.
+Follow the instructions under `Download and Go start guide <../Platform-VM/index.html>`_.
 
 
 Postgres
@@ -115,7 +115,7 @@ Creation of Tables in FusionDB
 Creation of Tables in Postgres
 
 - Create Custome CRM data
-    
+
        - Local_mcr_data.sql script
        - First name, Last name, Company Name
        - Address, City,State, Post, phone1, phone2, email, web
@@ -123,7 +123,7 @@ Creation of Tables in Postgres
 Creation of Tables in MySQL
 
 - Create amended GIS ABS data
-       
+
        - Docker_poa.sql script
        - Gid, poa_code, poa_name
        - sla_code11, lga_code, longitude, latitude
@@ -151,7 +151,7 @@ Creation of Tables in Postgres
 Creation of Tables in MySQL
 
 - Create amended GIS ABS data
-      
+
        - Docker_poa.sql script
        - Gid, poa_code, poa_name
        - sla_code11, lga_code, longitude, latitude
