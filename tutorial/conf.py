@@ -21,7 +21,7 @@ import sys
 
 # -- Project information -----------------------------------------------------
 
-project = 'Zetaris Tutorial'
+project = 'zetaris'
 copyright = '2018, Zetaris'
 author = 'Zetaris'
 
