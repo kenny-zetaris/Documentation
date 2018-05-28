@@ -19,7 +19,7 @@ Mac/VM ware fusion
 ----------------------
 
 The tuorials are build upon the Zetaris Lite Platform(Virtual Machine) and auxilary docker images. To get these running on Mac we recommend the following
-    
+
          - VMWare Fusion
          - Docker
 
@@ -110,14 +110,14 @@ We need to setup docker to use vmware as the docker-machine driver.
 
 **Installing with Docker Toolbox**
 
-- Install Docker Toolbox without VirtualBox::    
-    
+- Install Docker Toolbox without VirtualBox::
+
     DockerToolbox-.exe /COMPONENTS="Docker,DockerMachine"
 
 
 - Replace contents of ``C:\Program Files\Docker Toolbox\start.sh`` with this script.
-   
-  
+
+
 Click here to download driver for start file
 
 :download:`start.sh <doc/start.sh>`
@@ -125,12 +125,12 @@ Click here to download driver for start file
 **Usage**
 
 To create a VMware Workstation based Docker machine, just run this command::
-    
+
     $ docker-machine create --driver=vmwareworkstation vm
 
 
 **Options**::
-    
+
     --vmwareworkstation-boot2docker-url: The URL of the Boot2Docker image.
     --vmwareworkstation-disk-size: Size of disk for the host VM (in MB).
     --vmwareworkstation-memory-size: Size of memory for the host VM (in MB).
@@ -158,6 +158,3 @@ It should show something like::
     export DOCKER_MACHINE_NAME="vm"
     # Run this command to configure your shell:
     # eval $(docker-machine env vm)
-
-Troubleshooting
-================
