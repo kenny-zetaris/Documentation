@@ -12,5 +12,5 @@ Contents:
    alchemist/index.rst
    lightning/index.rst
    fusion/index.rst
-
-
+   tutorial/index.rst
+   
