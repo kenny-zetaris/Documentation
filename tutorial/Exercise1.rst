@@ -2,10 +2,10 @@
 Exercise 1
 ############
 
-This is an introduction to the zetaris platform. It introduces to the user the different components
-- Lightning
-- Alchemist
-- Fusion
+This is an introduction to the zetaris platform. It introduces to the user the different components:
+  - Lightning
+  - Alchemist
+  - Fusion
 
 Before you start the exercise make sure that you got the **Platform VM** up and running.Follow the instructions under `Download and Go start guide <../Platform-VM/index.html>`_ to get it through.
 
