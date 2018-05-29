@@ -85,6 +85,8 @@ Business query from 3 different datasets
    :align:   center
 
 Creation of Tables in FusionDB
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
  - Create Australia Post Merchant Data
 
      - Fusion_DB_postcode.sql script
@@ -102,6 +104,8 @@ Creation of Tables in FusionDB
  - Register Datasource FusionDB tables
 
 Creation of Tables in Postgres
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
   - Create Customer CRM data
 
        - Local_mcr_data.sql script
@@ -121,6 +125,8 @@ Creation of Tables in Postgres
   - Register Datasource Postgres_Local tables
 
 Creation of Tables in MySQL
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
   - Create amended GIS ABS data
 
        - Docker_poa.sql script
@@ -138,7 +144,7 @@ Creation of Tables in MySQL
 
   - Register Datasource MySQL tables
 
-Spark Drivers
+**Spark Drivers**
 
          - https://www.simba.com/drivers/spark-jdbc-odbc/
 
@@ -147,11 +153,13 @@ Spark Drivers
 
 
 Dbvisualiser
+~~~~~~~~~~~~
 
 .. figure::  img/img4.png
    :align:   center
 
 Tableau
+~~~~~~~
 
 .. figure::  img/img5.png
    :align:   center

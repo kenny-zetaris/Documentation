@@ -21,10 +21,11 @@ Check if the docker-machine environment variable is set. If not execute eval $(d
 
 **I find the zetaris services in the status page in waiting mode for ever ?**
 
-None of the service should take more than 5 min to startup. If it stays in waitin gmode for more than 10 minutes its could mean :
- - The service is hung - Stop and start the service to resolve the deadlock .
- - The license have expired - You need to contact zetaris to renew the license .
- - The network failed - You can restart the VM.
+None of the service should take more than 5 min to startup. If it stays in waiting mode for more than 10 minutes it could mean :
+
+  - The service is hung - Stop and start the service to resolve the deadlock .
+  - The license have expired - You need to contact zetaris to renew the license .
+  - The network failed - You can restart the VM.
 
 
 

@@ -15,7 +15,7 @@ Requirements
 Docker setup
 ============
 
-Mac/VM ware fusion
+Mac/VMware fusion
 ----------------------
 
 The tuorials are build upon the Zetaris Lite Platform(Virtual Machine) and auxilary docker images. To get these running on Mac we recommend the following

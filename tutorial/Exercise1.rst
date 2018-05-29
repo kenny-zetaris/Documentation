@@ -25,7 +25,8 @@ This exercise is split into 3 parts:
 .. _files: ./files/exercise2
 
 
-**Creating and Loading table into FusionDB**
+Creating and Loading table into FusionDB
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Loading data into DB
   Before you ryn theload queries, you need to load the data dumps into the VM. If you are using the platform-VM it has the data files already present under ``/srv/zetaris/docs/files/exercise1`` .
@@ -60,7 +61,8 @@ Performance parameters in VM
     - 1231 MB effective cache - 1/2 RAM
 
 
-**Creating and Loading table into Lightning**
+Creating and Loading table into Lightning
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Lightning enables you to directly create tables under it without having to go through a database/datasource. In here we will see how we create the same TPCH tables in Lightning and use lightning to query them.
 
@@ -89,8 +91,8 @@ Performance Parameters in VM
      - LGHT_DRIV_MEM=3692m
      - -Xmx3692m
 
-**Visualizng the data in Alchemist**
-
+Visualizng the data in Alchemist
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Creating a Basic report from Fusion
 
