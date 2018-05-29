@@ -66,7 +66,7 @@ Lightning enables you to directly create tables under it without having to go th
 
 Familiarising Lightning & Lightning GUI
   The only 100% supported GUI for lightnign is the Lightnign GUI. The lightnign GUI comes with 2 main views.
-  
+
   	- Schema Store View
   	- Topological view
   We would be using Schema store view and the associated sql editor through out this tutorial.
@@ -79,7 +79,7 @@ Query
   Refer the `query table scripts <./files/tutorial/exercise1/scripts/lightning/create-table.sql>`_, which contains all the 22 TPCH queries equivalent to the Relational World. The user could go through each of those queries and see how they differe from a tradional MPP query (to the one that is used in FusionDB)
 
      - Inter Hive ZMPP queries
-    Apart from directly querying the lightning tables , Using lightning you can also run queries that join the Fusion and Lightnign tables. Refer the samples at - 
+    Apart from directly querying the lightning tables , Using lightning you can also run queries that join the Fusion and Lightnign tables. Refer the samples at -
 
 Performance Parameters in VM
    The system resources allocated for lightning in the platform VM is bare minimium to run queries. Here the amount of RAM allocated for lightning is 4GB.
