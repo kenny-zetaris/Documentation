@@ -22,7 +22,7 @@ This exercise is split into 3 parts:
 
 .. note:: Browse the code for this exercise at files_. The same files can also be located under /srv/zetaris/docs/html/files in the respective containers.
 
-.. _files: ./files/exercise2
+.. _files: ./files/exercise1
 
 
 Creating and Loading table into FusionDB
@@ -43,13 +43,13 @@ Connect from external tools
 
 
 Preparing the data
-  The data and schema used in this exercise , conforms with the TPCH and schema and the queries comprehensively look into the 100% TPCH support.For preparign the data the associated script also include a set of index and constrainst that need to be created. Refer to the `load script <./files/tutorial/exercise1/scripts/fusion/create-table.sql>`_
+  The data and schema used in this exercise , conforms with the TPCH and schema and the queries comprehensively look into the 100% TPCH support.For preparign the data the associated script also include a set of index and constrainst that need to be created. Refer to the `load script <./files/exercise1/scripts/fusion/create-table.sql>`_
 
   .. figure::  img/img1.png
    :align:   center
 
 Querying the Data
-  To display the query capability of Fusion DB the attached `script <./files/tutorial/exercise1/scripts/fusion/query-table.sql>`_ contain all the 22 querys of TPCH and associated desciptions. To get a grasp fo the capability of FusionDB one could go through each of those querys.
+  To display the query capability of Fusion DB the attached `script <./files/exercise1/scripts/fusion/query-table.sql>`_ contain all the 22 querys of TPCH and associated desciptions. To get a grasp fo the capability of FusionDB one could go through each of those querys.
 
 Querying from Lightning GUI
   FusionDB is by default intergrated and virtualized via Lightning. Hence one can alwyas use the Lighing GUI to query FusionDB.
@@ -74,11 +74,11 @@ Familiarising Lightning & Lightning GUI
   We would be using Schema store view and the associated sql editor through out this tutorial.
 
 Creating and Registering Lightning tables
-  To create tables under lightning , run the `load table scrpts <./files/tutorial/exercise1/scripts/lightning/create-table.sql>`_ . Before you create the table also make sure that the data files are present. The platformVM by default ships the data files. Hence ou just need to execute the scripts in Lighning GUI.
+  To create tables under lightning , run the `load table scrpts <./files/exercise1/scripts/lightning/create-table.sql>`_ . Before you create the table also make sure that the data files are present. The platformVM by default ships the data files. Hence ou just need to execute the scripts in Lighning GUI.
 
 
 Query
-  Refer the `query table scripts <./files/tutorial/exercise1/scripts/lightning/create-table.sql>`_, which contains all the 22 TPCH queries equivalent to the Relational World. The user could go through each of those queries and see how they differe from a tradional MPP query (to the one that is used in FusionDB)
+  Refer the `query table scripts <./files/exercise1/scripts/lightning/create-table.sql>`_, which contains all the 22 TPCH queries equivalent to the Relational World. The user could go through each of those queries and see how they differe from a tradional MPP query (to the one that is used in FusionDB)
 
      - Inter Hive ZMPP queries
     Apart from directly querying the lightning tables , Using lightning you can also run queries that join the Fusion and Lightnign tables. Refer the samples at -
