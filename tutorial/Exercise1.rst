@@ -30,7 +30,7 @@ Creating and Loading table into FusionDB
 
 Loading data into DB
   Before you ryn theload queries, you need to load the data dumps into the VM. If you are using the platform-VM it has the data files already present under ``/srv/zetaris/docs/files/exercise1`` .
-  Once can also use SSH or your favorite ftp tools to move data into the VM. Refer to `Quick start guide <../Platform-VM/quick-start.html>`_ for more details on how to connetc to VM.
+  Once can also use SSH or your favorite ftp tools to move data into the VM. Refer to `Quick start guide <../Platform-VM/02quick-start.html>`_ for more details on how to connetc to VM.
 
      - SSH
      - SFTP clients – Filezilla, CyberDuck
