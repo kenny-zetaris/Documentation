@@ -91,7 +91,9 @@ Creation of Tables in FusionDB
 
      - Fusion_DB_postcode.sql script
      - Postcode,state,postcode_name, description, Multi_suburb
-     - /tutorial/files/exercise2/scripts/fusion/postcode_data.sql
+     - fusion_sql_
+
+.. _fusion_sql: ./files/exercise2/scripts/fusion/postcode_data.sql
 
  - Create Datasource FusionDB::
 
@@ -112,7 +114,9 @@ Creation of Tables in Postgres
        - Local_mcr_data.sql script
        - First name, Last name, Company Name
        - Address, City,State, Post, phone1, phone2, email, web
-       - /tutorial/files/exercise2/scripts/postgres/poa_data.sql
+       - postgres_sql_
+
+.. _postgres_sql: ./files/exercise2/scripts/postgres/poa_data.sql
 
   - Create Datasource Postgres_Local::
 
@@ -134,7 +138,9 @@ Creation of Tables in MySQL
        - Docker_poa.sql script
        - Gid, poa_code, poa_name
        - sla_code11, lga_code, longitude, latitude
-       - /tutorial/files/exercise2/scripts/mysql/mcr_data.sql
+       - mysql_sql_
+
+.. _mysql_sql: ./files/exercise2/scripts/mysql/mcr_data.sql
 
   - Create Datasource MySQL::
 
@@ -163,7 +169,9 @@ Dbvisualiser
 
 Tableau
 ~~~~~~~
-/tutorial/files/exercise2/scripts/lightning/query_table.sql
+   - Query_table_
+
+.. _Query_table: ./files/exercise2/scripts/lightning/query_table.sql
 
 .. figure::  img/img5.png
    :align:   center
