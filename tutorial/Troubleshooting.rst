@@ -39,11 +39,13 @@ Run the following command::
     
     go get -u github.com/machine-drivers/docker-machine-driver-vmware
 
-The docker machine binary will be there in this path C:\Users\Username\go\src\github.com\machine-drivers\docker-machine-driver-vmware
+The docker machine source files will be created in this path C:\Users\Username\go\src\github.com\machine-drivers\docker-machine-driver-vmware
 
-Now you have to build the docker machine using this command::
+Now you have to build the docker machine vmware driver binary using this command::
     
     $ go build -o out/docker-machine-driver-vmware.exe
+
+When we build the vmware it creates .exe file in Docker toolbox.
 
 If the PATH is correctly setup, you will see this if you run the command::
     
@@ -53,7 +55,6 @@ If the PATH is correctly setup, you will see this if you run the command::
     Please use this plugin through the main 'docker-machine' binary.
     (API version: 1)
 
-When we building the vmware it creates .exe file in Docker toolbox.
 
 Make sure the driver is in right path or not.
 
@@ -61,7 +62,7 @@ Now create the docker machine using this command::
     
      docker-machine create --driver vmware vm
 
-just check docker machines are running or not::
+Check if docker machines are running or not::
     
     docker-machine ls
 
@@ -73,19 +74,12 @@ just check docker machines are running or not::
 |vm     |  -   |  vmware          | Running|tcp://192.168.88.141:2376|     |Unknown|        |         
 +-------+-------------------------+--------+-------------------------+-----+-------+--------+
 
+
 If vm is created successfully you can run this command::
-    
-     docker-machine regenerate-certs --client-certs vm
-
-After running this if it is waiting for ssh or waiting for vm to come online we have debug it to know the issue::
-    
-     docker-machine -D regenerate-certs --client-certs vm 
-
-After debug it just run this to create vm::
     
     docker-machine  --native-ssh -D regenerate-certs --client-certs vm
 
-Just check the machines are running or not::
+Check if the machines are running or not::
     
     docker-machine ls
 
@@ -93,4 +87,4 @@ Before pulling any images we have to set the vm::
      
      eval $(docker-machine env vm)
 
-We can directly loogin in to dockerhub and pull the images what we want.
+We can directly login in to dockerhub and pull the images what we want.
