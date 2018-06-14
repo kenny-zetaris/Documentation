@@ -118,10 +118,10 @@ Is it easy to get the data under one environment?
 Typical vs the Zetaris Way
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Traditionally data scientists are used to getting the data moved to their local work environments, after a lot of struggle and hard work. That's why in this article, Time Magazine calls out that 80% of data scientists' work is Janitor Work (with all due respect to Janitors, data scientists prefer to analyze data more than prepare it)
+Traditionally data scientists are used to getting the data moved to their local work environments, after a lot of struggle and hard work. That's why in this article, Time Magazine calls out that 80% of data scientists' work is Janitor Work (with all due respect to Janitors, data scientists prefer to analyze data more than prepare it)
 
 Virtual Data Connections 
-~-------------------------
+-------------------------
 
 With Zetaris Lightning, data scientists can simply create 'virtual connections' to their data sets. 
 The Zetaris Lightning (and Notebook) federates all queries related to data preparation to the databases that actually manage the data, instead of dealing with the above mentioned issues. 
@@ -141,7 +141,7 @@ Connection to your Zetaris Lightning environment is already made for you. Just t
 code to select top n of the data set. 
 
 Exploratory Data Analysis
-~------------------------------
+------------------------------
 
 Now lets explore the data before we fit a model to it. 
 
@@ -199,8 +199,7 @@ This is a typical unsupervised learning algorithm to determine clusters in yourd
 We can overcome these now in an entperise grade deployment by being able to run in multiple times to saturate the issues caused by 'overfitting'. 
 
 Quickest KNN exercise.  
--------------------------
-::
+----------------------::
     from sklearn.neighbors import KNeighborsClassifier
     knn = KNeighborsClassifier(n_neighbors = 3)
     x,y = data.loc[:,data.columns != 'class'], data.loc[:,'class']
@@ -212,7 +211,6 @@ Splitting the data into training and test (on a distributed big data sets!)
 This should immediately improve accuracy but you can now easily perform data splits without typical ETL for big data. 
 
 train test split
-
 ::
     from sklearn.model_selection import train_test_split
     x_train,x_test,y_train,y_test = train_test_split(x,y,test_size = 0.3,random_state = 1)
@@ -228,8 +226,7 @@ train test split
 We all know how important to avoid overfitting in building and deployment models that 
 
 Model complexity
-~~~~~~~~~~~~~~~~~~~~~
-::
+~~~~~~~~~~~~~~~~~~~~~::
     neig = np.arange(1, 25)
     train_accuracy = []
     test_accuracy = []
@@ -297,7 +294,6 @@ Key Takeaways
 - Working in Privacy Preserved Environments. 
 
 Findings
-
 Taking Notes and Observations
         
         - [ ] Monitoring Speed (Both person and machine)
