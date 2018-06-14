@@ -18,7 +18,7 @@ Docker setup
 Mac/VMware fusion
 ----------------------
 
-The tuorials are build upon the Zetaris Lite Platform(Virtual Machine) and auxilary docker images. To get these running on Mac we recommend the following
+The tuorials are build upon the Zetaris Lite Platform(Virtual Machine) and auxiliary docker images. To get these running on Mac we recommend the following
 
          - VMWare Fusion
          - Docker
@@ -33,7 +33,7 @@ To run the docker images associated with the tutorial we need to install Docker.
 Configuring Docker in Mac.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-One need to make sure that both the VM and the tutorial docker should run within the same Virualizer.
+One need to make sure that both the VM and the tutorial docker should run within the same Visualizer.
 
 In our case its VMWare. Hence we need to setup docker to use vmware as the docker-machine driver.
 
@@ -104,7 +104,7 @@ REQUIREMENTS
   * Docker Machine 0.5.0+
   * VMware Workstation Workstation Free/Pro 10 +
 
-One need to make sure that both the VM and the tutorial docker should run within the same Virualizer.
+One need to make sure that both the VM and the tutorial docker should run within the same Visualizer.
 
 We need to setup docker to use vmware as the docker-machine driver.
 

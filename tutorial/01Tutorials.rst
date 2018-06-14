@@ -10,7 +10,7 @@ In here we go through a basic use case covering
      - Loading data to Lightning
      - Loading data to Fusion
      - Creating views
-     - Reporitng on those views using Alchemist
+     - Reporting on those views using Alchemist
 
 Loading and Querying data in Lightning & Fusion
 -------------------------------------------------

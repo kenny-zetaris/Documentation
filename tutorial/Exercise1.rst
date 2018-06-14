@@ -29,7 +29,7 @@ Creating and Loading table into FusionDB
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Loading data into DB
-  Before you ryn theload queries, you need to load the data dumps into the VM. If you are using the platform-VM it has the data files already present under ``/srv/zetaris/docs/files/exercise1`` .
+  Before you run the load queries, you need to load the data dumps into the VM. If you are using the platform-VM it has the data files already present under ``/srv/zetaris/docs/files/exercise1`` .
   Once can also use SSH or your favorite ftp tools to move data into the VM. Refer to `Quick start guide <../Platform-VM/02quick-start.html>`_ for more details on how to connetc to VM.
 
      - SSH
@@ -43,16 +43,16 @@ Connect from external tools
 
 
 Preparing the data
-  The data and schema used in this exercise , conforms with the TPCH and schema and the queries comprehensively look into the 100% TPCH support.For preparign the data the associated script also include a set of index and constrainst that need to be created. Refer to the `load script <./files/exercise1/scripts/fusion/create-table.sql>`_
+  The data and schema used in this exercise , conforms with the TPCH and schema and the queries comprehensively look into the 100% TPCH support.For preparing the data the associated script also include a set of index and constrainst that need to be created. Refer to the `load script <./files/exercise1/scripts/fusion/create-table.sql>`_
 
   .. figure::  img/img1.png
    :align:   center
 
 Querying the Data
-  To display the query capability of Fusion DB the attached `script <./files/exercise1/scripts/fusion/query-table.sql>`_ contain all the 22 querys of TPCH and associated desciptions. To get a grasp fo the capability of FusionDB one could go through each of those querys.
+  To display the query capability of Fusion DB the attached `script <./files/exercise1/scripts/fusion/query-table.sql>`_ contain all the 22 querys of TPCH and associated desciptions. To get a grasp of the capability of FusionDB one could go through each of those querys.
 
 Querying from Lightning GUI
-  FusionDB is by default intergrated and virtualized via Lightning. Hence one can alwyas use the Lighing GUI to query FusionDB.
+  FusionDB is by default intergrated and virtualized via Lightning. Hence one can always use the Lightning GUI to query FusionDB.
 
 Performance parameters in VM
   The default VM that get shipped used 8GB of RAM and our of that 2.5 GB of RAM is dedicated to Fusion. If a user allocate more RAM to the VM before the product initialization then Fusion would be configured more RAM respectively.
@@ -67,21 +67,21 @@ Creating and Loading table into Lightning
 Lightning enables you to directly create tables under it without having to go through a database/datasource. In here we will see how we create the same TPCH tables in Lightning and use lightning to query them.
 
 Familiarising Lightning & Lightning GUI
-  The only 100% supported GUI for lightnign is the Lightnign GUI. The lightnign GUI comes with 2 main views.
+  The only 100% supported GUI for lightning is the Lightnign GUI. The lightning GUI comes with 2 main views.
 
   	- Schema Store View
   	- Topological view
   We would be using Schema store view and the associated sql editor through out this tutorial.
 
 Creating and Registering Lightning tables
-  To create tables under lightning , run the `load table scrpts <./files/exercise1/scripts/lightning/create-table.sql>`_ . Before you create the table also make sure that the data files are present. The platformVM by default ships the data files. Hence ou just need to execute the scripts in Lighning GUI.
+  To create tables under lightning , run the `load table scrpts <./files/exercise1/scripts/lightning/create-table.sql>`_ . Before you create the table also make sure that the data files are present. The platformVM by default ships the data files. Hence you just need to execute the scripts in Lighning GUI.
 
 
 Query
-  Refer the `query table scripts <./files/exercise1/scripts/lightning/create-table.sql>`_, which contains all the 22 TPCH queries equivalent to the Relational World. The user could go through each of those queries and see how they differe from a tradional MPP query (to the one that is used in FusionDB)
+  Refer the `query table scripts <./files/exercise1/scripts/lightning/create-table.sql>`_, which contains all the 22 TPCH queries equivalent to the Relational World. The user could go through each of those queries and see how they difference from a tradional MPP query (to the one that is used in FusionDB)
 
      - Inter Hive ZMPP queries
-    Apart from directly querying the lightning tables , Using lightning you can also run queries that join the Fusion and Lightnign tables. Refer the samples at -
+    Apart from directly querying the lightning tables , Using lightning you can also run queries that join the Fusion and Lightning tables. Refer the samples at -
 
 Performance Parameters in VM
    The system resources allocated for lightning in the platform VM is bare minimium to run queries. Here the amount of RAM allocated for lightning is 4GB.
@@ -91,7 +91,7 @@ Performance Parameters in VM
      - LGHT_DRIV_MEM=3692m
      - -Xmx3692m
 
-Visualizng the data in Alchemist
+Visualizing the data in Alchemist
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Creating a Basic report from Fusion

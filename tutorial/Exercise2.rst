@@ -2,14 +2,14 @@
 Exercise 2
 ##################
 
-This exercise is aimed at introducing Data vitualization using the Zetaris Platform.
+This exercise is aimed at introducing Data virtualization using the Zetaris Platform.
 To complete this exercise you will need the following setup
 
       - Zetaris Platform VM
       - Postgres
       - Mysql
 
-If you find it difficult to set the database up and running. You can get the respective contianer from zetaris docker hub and get it up and running
+If you find it difficult to set the database up and running. You can get the respective container from zetaris docker hub and get it up and running
 
 **Zetaris Platform VM**
 
@@ -49,7 +49,7 @@ If you find it difficult to set the database up and running. You can get the res
      docker-machine ssh vm mkdir mysql
      docker run --name mysql -v /home/docker/mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=vssvss -p 3306:3306 zetaris/zetaris-mysql
  
- Change permissions for lightnign to connect ::
+ Change permissions for lightning to connect ::
  
      docker exec -ti mysql bash
        - mysql -uroot -p
@@ -74,7 +74,7 @@ If you find it difficult to set the database up and running. You can get the res
  - Postgres: local machine database
 
 Use Case:
-  Provide a geographical visualisation for the concentration of customers from a CRM
+  Provide a geographical virtualisation for the concentration of customers from a CRM
 
 Business query from 3 different datasets
  - ABS Geographic data
