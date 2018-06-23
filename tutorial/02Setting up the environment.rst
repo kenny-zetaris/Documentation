@@ -118,7 +118,7 @@ We need to setup docker to use vmware as the docker-machine driver.
 - Replace contents of ``C:\Program Files\Docker Toolbox\start.sh`` with this script.
 
 
-Click here to download driver for start file
+Click here to download driver for start 
 
 :download:`start.sh <doc/start.sh>`
 
