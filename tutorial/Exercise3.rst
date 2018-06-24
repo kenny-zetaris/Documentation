@@ -58,9 +58,9 @@ Contains personal information about the patient's past data and their observatio
 
 We will be installing some packages to leverage the data science ecosystem in python right form within this notebook. So far this is typical work of a data scientist.
 
-Here we can download the notebook file.
+Here we can download the notebook file_.
 
-:download:`ScrapBook_Test.json <files/exercise3/scripts/notebook/ScrapBook_Test.json>`
+ .. _file: ./files/exercise3
 
 
 This code imports popular and freely available python data science libraries.
@@ -107,8 +107,31 @@ Testing the datasets connectivity via Lightning
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Connection to your Zetaris Lightning environment is already made for you. Just to test this, do the following
+::    
+ 
+   %python.conda install pandas
 
-code to select top n of the data set.
+::
+
+    %python.conda install seaborn
+
+::
+
+    %python.conda install psycopg2
+
+::
+      
+    %python
+    #Reading dataset 1 into a pandas data frame.
+    import pandas as pd
+    data = pd.read_csv('/column_2C_weka.csv')
+    #The reference now to the dataset will be through this dataframe.
+
+::
+   
+    %spark
+    // For datasets loaded in external databases, Lightning can be used to query those data usi
+    var data = spark.sql('SELECT * from FUSIONDB.column_2C_weka')
 
 Exploratory Data Analysis
 ------------------------------
