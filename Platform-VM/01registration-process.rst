@@ -109,6 +109,11 @@ This page can be accessed at any time , so it’s recommended it be bookmarked.
 .. figure::  img/initilization.png
    :align:   center 
 
+Manual Activation
+++++++++++++++++++
 
+The products can be manually activated instead of from GUI by issuing the below command::
+
+   /usr/share/zetaris/agent/bin/zetaris_agent -activate <activatin key>
 
 
