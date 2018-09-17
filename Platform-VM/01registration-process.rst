@@ -109,11 +109,13 @@ This page can be accessed at any time , so it’s recommended it be bookmarked.
 .. figure::  img/initilization.png
    :align:   center 
 
-Manual Activation
-++++++++++++++++++
+**Manual Activation**
+======================
 
 The products can be manually activated instead of from GUI by issuing the below command::
 
-   /usr/share/zetaris/agent/bin/zetaris_agent -activate <activatin key>
+    /usr/share/zetaris/agent/bin/zetaris_agent -activate <activatin key>
 
-
+Once key is activated proceed to config step::
+  
+   sh /usr/share/zetaris/installer/zaw/bin/single_node_zaw_config.sh
