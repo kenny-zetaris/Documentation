@@ -22,7 +22,7 @@ import sys
 # -- Project information -----------------------------------------------------
 
 project = 'zetaris'
-copyright = '2018, Zetaris'
+copyright = '2019, Zetaris'
 author = 'Zetaris'
 
 # The short X.Y version
