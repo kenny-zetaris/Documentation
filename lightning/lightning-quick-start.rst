@@ -94,7 +94,7 @@ MS SQL Server
 .. highlight:: sql
 
 ::
-
+    
     CREATE DATASOURCE MSSQL DESCRIBE BY "MSSQL-2017-linux " OPTIONS (
       jdbcdriver "com.microsoft.sqlserver.jdbc.SQLServerDriver",
       jdbcurl "jdbc:sqlserver://localhost:1433 ",
@@ -106,16 +106,19 @@ MS SQL Server
 
 My SQL
 ^^^^^^
-
-::
-
+.. code-block:: sql
+    
     CREATE DATASOURCE MY_SQL DESCRIBE BY "MySQL " OPTIONS (
       jdbcdriver "com.mysql.jdbc.Driver",
-      jdbcurl "jdbc:mysql://127.0.0.1/test_db?",
+      jdbcurl "jdbc:mysql://127.0.0.1/test_db",
       username "scott" ,
-    password "tiger
+      password "tiger
     )
-    (IBM DB2)
+    
+IBM DB2
+^^^^^^^^
+.. code-block:: sql
+    
     CREATE DATASOURCE DB2_DB2INST1 DESCRIBE BY "DB2 Sample DB Schema " OPTIONS (
       jdbcdriver "com.ibm.db2.jcc.DB2Driver",
       jdbcurl "jdbc:db2://127.0.0.1:50000/db_name",
@@ -127,9 +130,8 @@ My SQL
 
 Green Plum
 ^^^^^^^^^^
-
-::
-
+.. code-block:: sql
+    
     CREATE DATASOURCE GREEN_PLUM  DESCRIBE  BY  "GREEN_PLUM " OPTIONS (
       jdbcdriver "org.postgresql.Driver",
       jdbcurl "jdbc:postgresql://localhost:5432/postgres",
@@ -527,11 +529,11 @@ Table level statistics
 Column level statistics
 ------------------------
 .. highlight:: sql
-
 ::
       
-     ANALYZE DATASOURCE TABLE ORCL.MOVIES COMPUTE STATISTICS FOR COLUMNS (IID, TITLE) 
-This command generate statistics such as cardinality, number of null, min, max, average value, and these are browsed by the following commabd : 
+     ANALYZE DATASOURCE TABLE ORCL.MOVIES COMPUTE STATISTICS FOR COLUMNS (IID, TITLE)
+
+This command generate statistics such as cardinality, number of null, min, max, average value, and these are browsed by the following command : 
 ::
     
      SHOW DATASOURCE COLUMN STATISTICS ORCL.MOVIES; 
@@ -604,6 +606,7 @@ Add user
 
 1. level : admin | general
 2. password doesnt allow white spaces
+
 .. highlight:: sql
 
 ::
