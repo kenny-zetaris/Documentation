@@ -7,3 +7,4 @@ clouddatafabric's documentation!
 
    Cloud_Data_Fabric_Quick_Start_Guide
    Frequently_Asked_Questions
+   SQL_Manual
