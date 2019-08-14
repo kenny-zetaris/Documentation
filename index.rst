@@ -1,5 +1,5 @@
 Zetaris Documentation
-===================================
+======================
 
 
 Contents:
@@ -10,4 +10,3 @@ Contents:
 
    lightning/index.rst
    clouddatafabric/index.rst
-   
