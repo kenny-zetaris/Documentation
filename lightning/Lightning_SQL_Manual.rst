@@ -1,5 +1,5 @@
-SQL Manual
-==========
+Lightning SQL Manual
+====================
 
 
 This guide provides a reference for SQL Language Manual and a set of example use cases.
