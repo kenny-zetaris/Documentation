@@ -19,6 +19,12 @@
 import os
 import sys
 
+import sphinx_rtd_theme
+
+extensions = [
+    "sphinx_rtd_theme",
+]
+
 #sys.path.append(os.path.abspath('sphinx-docxbuilder'))
 
 # -- Project information -----------------------------------------------------
